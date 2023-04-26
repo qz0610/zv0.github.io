@@ -42,7 +42,7 @@ jobs:
 
     - name: Notify Discord
       if: success()
-      uses: Ilshidur/action-discord@v2.0.0
+      uses: Ilshidur/action-discord@master
       with:
         webhook: ${{ secrets.DISCORD_WEBHOOK }}
         username: 'Zed Zhong - Personal Page CI/CD'
